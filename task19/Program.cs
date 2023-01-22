@@ -18,6 +18,7 @@ if (length == 5)
 }
 else Console.Write ("Число не пятизначное");
 */
+using System;
 Console.WriteLine ("Введите пятизначное число:");
 int num = Convert.ToInt32(Console.ReadLine());
 int num5 = num % 10;
