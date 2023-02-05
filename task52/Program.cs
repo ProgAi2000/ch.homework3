@@ -45,4 +45,4 @@ for (int j = 0; j < arr.GetLength(1); j++)
     }
     Console.Write($"{Math.Round(sum/arr.GetLength(0),1)}; ");
 }
-Console.Write("\b\b.");
+Console.Write("\b\b ");
