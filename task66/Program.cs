@@ -14,6 +14,5 @@ Console.Write(SumOfNumbers(N,M));
 int SumOfNumbers(int start, int end)
 {   int sum = 0;
     if (start == end + 1 ) return sum;
-
     return (sum = start + SumOfNumbers(start+1,end));
 }
